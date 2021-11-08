@@ -1,6 +1,34 @@
 # web_viewer
 
-a Web Viewer
+base para fazer webviews em flutter
+##################################  alteração da imagem de icone  ##################################
+para realizar a alteração da imagem de icone, necessario alterar o arquivo que se encontra na pasta:
+assets/icons/icon.png, e inserir outro arquivo com mesmo nome
+
+tbm é possivel alterar a imagem colocando outro arquivo na pasta assets/icons/ e referenciando
+esse novo arquivo no pubspecc.yaml: na parte:
+
+image_path: "assets/icons/icon.png" alterando o icon.png pro nome desejado,
+e dar um pub get
+
+após atualizado para o arquivo desejado realizar o comando:
+
+flutter pub run flutter_launcher_icons:main
+no console com o path do projeto aberto e assim vai atualizar a imagem.
+
+icone atualizado!!!!
+
+##################################    alteração do nome do app    ##################################
+
+
+
+################################## adição de chave pra googlePlay ##################################
+
+
+
+
+
+
 
 ## Getting Started
 
